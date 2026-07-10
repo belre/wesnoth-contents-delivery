@@ -13,6 +13,7 @@ jsDelivr(https://cdn.jsdelivr.net/gh/belre/wesnoth-contents-delivery@main/mini-w
 |---|---|---|
 | units-loyalists.psp | 人間族(忠誠軍)ユニットの全アニメフレーム(262点) | PSP1パック |
 | units-northerners.psp | オーク(北方勢)同上(179点) | PSP1パック |
+| terrain.psp | 地形タイル一式(18点) | PSP1パック |
 | sprites/ | 個別URLフォールバック層一式: 地形タイル(terrain/)・base立ち絵(unit-base/)・ユニット個別フレーム・halo・飛び道具 | 無加工PNG(mini-wesgame の `public/sprites/` と同一構成) |
 
 (2026-07-09 更新: mini-wesgame から undead / rebels / drakes / knalgan(盗賊系)の
@@ -20,6 +21,8 @@ jsDelivr(https://cdn.jsdelivr.net/gh/belre/wesnoth-contents-delivery@main/mini-w
 (2026-07-10 追加: sprites/ を追加。従来はterrain・base立ち絵をmini-wesgame自身の
 ビルド成果物に同梱していたが、.pspパックと同じ「別リポジトリでの同等アクセス」原則に
 揃えるため、個別PNG一式もここへ寄せた)
+(2026-07-10 追加: terrain.psp を追加。地形タイルは18ファイルの個別リクエストだったが、
+ユニットと同じパック方式にまとめて1リクエスト化した)
 
 ## 形式(PSP1)
 
